@@ -1,13 +1,13 @@
 # Running DisPerSE: A Tutorial and Functions for Running the Persistent Structures Identifier
 ### Introduction
-The Discrete Persistent Structures Extractor, developed by Theirry Sousbie (2012), is an industry standard cosmic web extractor for astrophysics and cosmological research. It identifies persistent topological features, such as voids, filaments, and peaks, from a dataset. In astronomy, it is used to determine the large scale structure of the universe, tracing out the filamentary structure of galaxies. 
+The Discrete Persistent Structures Extractor, developed by Theirry Sousbie (2012), is an industry standard cosmic web extractor for astrophysics and cosmological research. It identifies persistent topological features, such as voids, filaments, and peaks from a dataset. In astronomy, it is used to determine the large scale structure of the universe, tracing out the filamentary structure of galaxies. 
 
 While it is an essential program, there is a learning curve for getting it started and running, along with understanding and interpreting its outputs. This notebook (a product of my own research using DisPerSE) provides an in-depth tutorial on setting up DisPerSE (including laying out everything required for the program to function), running the program, interpreting and visualizing outputs, and performing scientific analysis with the results. 
 
 Note: the setup of this notebook and the provided functions surround using DisPerSE in the context of galaxies and cosmological structure, and may need adjustment if working with data that is not from observational or simulated astronomy. 
 
 ### How to Use
-The entire tutorial is contained within the Jupyter notebook in this repository. You can either download the files and ensure they are all contained within the same folder, or fork the repository and clone the fork. The python file, "disperse_function.py", contains the functions used within the notebook, so make sure to run the first cell of the notebook to import it. The .csv and .txt files are example datasets used to show the analysis, but I encourage changing out the data for your own. Below are markdown cells from **within the notebook**, for reference.
+The entire tutorial is contained within the Jupyter notebook in this repository. You can either download the files and ensure they are all contained within the same folder, or fork the repository and clone it from there. The python file, "disperse_function.py", contains the functions used within the notebook, so make sure to run the first cell of the notebook to import it. The .csv and .txt files are example datasets used to show the analysis, but I encourage changing out the data for your own. Below are markdown cells from **within the notebook**, for reference.
 
 ### Downloading DisPerSE Files & Necessary Programs
 To get DisPerSe running, go to https://github.com/thierry-sousbie/DisPerSE and download the files. Older versions had a few errors that needed to be fixed, but the newest version available here is good to go.
